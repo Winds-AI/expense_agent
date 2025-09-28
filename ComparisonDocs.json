@@ -1,0 +1,75 @@
+{
+  "models": {
+    "gpt-4o-mini": [
+      {
+        "success": true,
+        "prompt": "20 na padika lidha.",
+        "time": 3.79
+      },
+      {
+        "timestamp": "2024-01-01T10:05:00Z",
+        "response_time_ms": 1450,
+        "prompt_length_chars": 180,
+        "success": true,
+        "prompt": "Explain quantum computing in simple terms",
+        "response": "Quantum computing uses quantum mechanics principles...",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      }
+    ],
+    "claude-3-sonnet": [
+      {
+        "timestamp": "2024-01-01T10:00:00Z",
+        "response_time_ms": 1200,
+        "prompt_length_chars": 250,
+        "success": true,
+        "prompt": "Calculate the sum of numbers from 1 to 100",
+        "response": "The sum of integers from 1 to 100 is 5050.",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      },
+      {
+        "timestamp": "2024-01-01T10:05:00Z",
+        "response_time_ms": 1180,
+        "prompt_length_chars": 180,
+        "success": true,
+        "prompt": "Explain quantum computing in simple terms",
+        "response": "Quantum computing harnesses quantum phenomena...",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      }
+    ],
+    "gpt-3.5-turbo": [
+      {
+        "timestamp": "2024-01-01T10:00:00Z",
+        "response_time_ms": 800,
+        "prompt_length_chars": 250,
+        "success": true,
+        "prompt": "Calculate the sum of numbers from 1 to 100",
+        "response": "5050",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      },
+      {
+        "timestamp": "2024-01-01T10:05:00Z",
+        "response_time_ms": 780,
+        "prompt_length_chars": 180,
+        "success": true,
+        "prompt": "Explain quantum computing in simple terms",
+        "response": "Quantum computing is a type of computing that uses quantum mechanics.",
+        "temperature": 0.7,
+        "max_tokens": 1000
+      }
+    ]
+  },
+  "metadata": {
+    "description": "Model comparison data for response times and performance",
+    "created_at": "2024-01-01T09:00:00Z",
+    "last_updated": "2024-01-01T10:05:00Z",
+    "test_environment": {
+      "hardware": "Standard cloud instance",
+      "region": "us-east-1",
+      "api_version": "latest"
+    }
+  }
+}

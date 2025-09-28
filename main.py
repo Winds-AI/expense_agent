@@ -1,4 +1,10 @@
-from agent import agent, display_tool_interaction, get_final_answer
+"""
+Switch which agent to run by changing the import below to one of:
+- agents.react_tracker
+- agents.simple_echo
+"""
+
+from agents.react_tracker import build_agent, display_tool_interaction, get_final_answer
 from time import time
 
 def main():
@@ -6,6 +12,7 @@ def main():
     print("Ask me about expenses or type 'bye' to exit.\n")
 
     conversation_history = []
+    agent = build_agent()
 
     while True:
         user_input = input("You: ").strip()
